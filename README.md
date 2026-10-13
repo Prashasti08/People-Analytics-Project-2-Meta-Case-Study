@@ -1,6 +1,7 @@
 <p align="center">
-  <img src="Meta%20Employee%20Retention%20Analytics%20Dashboard.png" alt="Meta People Analytics Banner" width="100%">
+  <img src="Meta%20Employee%20Retention%20Analytics%20Dashboard%281%29.png" alt="Meta People Analytics Banner" width="100%">
 </p>
+
 
 # People Analytics Project: Employee Engagement & Retention at Meta
 
