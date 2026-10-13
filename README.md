@@ -1,4 +1,7 @@
-![Meta People Analytics Banner](banner.png)
+
+<p align="center">
+  <img src="banner.png" alt="Meta People Analytics Case Study Banner" width="100%">
+</p>
 
 # Meta Employee Retention & Engagement Analysis
 
