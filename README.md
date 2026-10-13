@@ -1,71 +1,61 @@
+![Meta People Analytics Banner](banner.png)
+
 # Meta Employee Retention & Engagement Analysis
 
-## People Analytics Case Study | SQL + Python
+**People Analytics Case Study | SQL (SQLite) · Python · Pandas · Matplotlib · Statsmodels**
 
-### Project Overview
+Analyzed **7,500 simulated employee records** to investigate top-performer retention, turnover intention, and employee engagement using workforce segmentation, correlation analysis, and multiple linear regression.
 
-This People Analytics project uses a simulated dataset of 7,500 Meta employees to examine two workforce challenges: retaining Top Performers and improving employee engagement.
+## Research Question
 
-Using SQL and Python, I analyzed employee performance, turnover intention, job satisfaction, supervisor and leadership ratings, and workforce characteristics to identify key patterns and develop evidence-based recommendations.
+- How can Meta identify and retain top performers fairly without simply raising wages?
+- How can Meta improve employee engagement, morale, and productivity?
 
-## Business Questions
+## Business Purpose
 
-1. How can Meta identify and retain Top Performers fairly without simply raising wages?
-2. How can Meta improve employee engagement, morale, and productivity?
+Identify workforce patterns to inform **employee retention strategies, engagement initiatives, and evidence-based HR decision-making**.
 
-## Analytical Approach
+## Methodology
 
-### SQL
-- Validated data quality, including missing values, duplicates, and variable ranges.
-- Examined workforce patterns across job, gender, ethnicity, and tenure.
-- Aggregated employee experience and workforce measures across key employee groups.
+- **SQL:** Data validation, cleaning checks, and workforce analysis across job functions, demographics, and tenure.
+- **Python:** Workforce segmentation and top-performer analysis using performance ratings and turnover intention.
+- **Statistical Analysis:** Correlation analysis and multiple linear regression to investigate predictors of turnover intention.
+- **Data Visualization:** Used Python and Matplotlib to communicate workforce trends and findings.
 
-### Python
-- Segmented employees by performance rating to identify Top Performers.
-- Compared turnover intention across performance and job groups.
-- Examined potential retention and engagement drivers using correlation analysis.
-- Used multiple linear regression to assess predictors of turnover intention.
-- Created visualizations to communicate key workforce patterns.
+## Findings
 
-## Key Findings
+- **Top-Performer Retention:** Top performers had an average turnover intention of **3.48**, rising to **3.91** among Software Development top performers.
+- **Retention Predictors:** Available workforce variables did not clearly explain turnover intention.
+- **Employee Engagement:** Job satisfaction averaged **2.78–2.89** across job functions, with no clear engagement driver emerging from the correlations.
 
-### Top Performer Retention
-- Top Performers reported the highest average turnover intention (3.48).
-- Software Development Top Performers had the highest turnover intention (3.91).
-- The available variables did not clearly explain turnover intention.
+## Key Insights and Recommendations
 
-### Employee Engagement
-- Job satisfaction was similar across job groups (2.78–2.89).
-- The available engagement measures showed little to no correlation with one another.
-- The data did not identify a clear engagement driver.
+- **Targeted Retention:** Prioritize stay interviews and pulse surveys for high-performing employees, particularly in Software Development.
+- **Compensation Strategy:** Investigate nonfinancial retention factors rather than assuming salary increases alone will reduce turnover intention.
+- **Employee Listening:** Collect targeted employee feedback to identify engagement drivers before implementing organization-wide interventions.
 
-## Recommendations
+## Data Source
 
-### Top Performer Retention
-- Prioritize retention efforts for Top Performers, particularly in Software Development.
-- Conduct targeted stay interviews or focused pulse surveys to identify retention drivers not captured in the current dataset.
-- Avoid assuming that compensation is the primary solution, as salary showed only a weak relationship with turnover intention.
+**Simulated Meta Employee Dataset — 7,500 records**
 
-### Employee Engagement
-- Avoid implementing a broad engagement intervention based on the current data alone.
-- Collect additional diagnostic data to identify specific drivers of employee morale and engagement before designing targeted interventions.
+Synthetic workforce data used for a hypothetical Meta case study; not actual Meta employee records.
 
+## Code
 
-## Skills & Tools
+- **SQL:** Data validation, workforce aggregation, and descriptive analysis.
+- **Python:** Workforce segmentation, correlation analysis, multiple linear regression, and data visualization.
 
-**Tools:** SQL (SQLite), Python, Pandas, Matplotlib, Statsmodels, Jupyter Notebook
+[View Complete Project Repository](https://github.com/Prashasti08/People-Analytics-Project-2-Meta-Case-Study)
 
-**People Analytics:** Data cleaning, data validation, workforce segmentation, employee retention analysis, employee engagement analysis, descriptive statistics, correlation analysis, regression analysis, data visualization, and evidence-based recommendations.
+## Data Visualizations and Dashboard
 
+**Python / Matplotlib:** Visualizations examining workforce composition, turnover intention, employee satisfaction, and retention patterns.
 
-## Repository Files
+[Explore Project Analysis and Visualizations](https://github.com/Prashasti08/People-Analytics-Project-2-Meta-Case-Study)
 
-- `employee_analysis.sql` — SQL data validation, aggregation, and workforce analysis
-- `meta_people_analytics_case_study.ipynb` — Python analysis, statistical modeling, visualizations, findings, and recommendations
 ## Limitations
 
-- The dataset is simulated and does not represent actual Meta employee records.
-- The analysis is observational and does not establish causal relationships.
-- Turnover intention represents reported intent rather than actual employee turnover.
-- The available variables may not capture important retention and engagement drivers.
-- Productivity is not directly measured in the dataset.
+- Findings are based on simulated, not actual Meta employee data.
+- Observational associations do not establish causality.
+- Turnover intention does not measure actual employee turnover.
+- Available variables may not capture all relevant retention and engagement drivers; productivity was not directly measured.
