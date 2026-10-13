@@ -7,7 +7,7 @@
 
 **SQL (SQLite) | Python | Pandas | Matplotlib | Statsmodels**
 
-Analyzed **7,500 simulated employee records** to investigate employee engagement, turnover intention, and top-performer retention through workforce segmentation, correlation analysis, and multiple linear regression.
+Analyzed **7,500 simulated Meta employee records** to investigate employee engagement, turnover intention, and top-performer retention through workforce segmentation, correlation analysis, and multiple linear regression.
 
 ## Research Question
 
