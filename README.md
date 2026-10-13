@@ -1,13 +1,12 @@
-
 <p align="center">
-  <img src="banner.png" alt="Meta People Analytics Case Study Banner" width="100%">
+  <img src="Meta%20Employee%20Retention%20Analytics%20Dashboard.png" alt="Meta People Analytics Banner" width="100%">
 </p>
 
-# Meta Employee Retention & Engagement Analysis
+# People Analytics Project: Employee Engagement & Retention at Meta
 
-**People Analytics Case Study | SQL (SQLite) · Python · Pandas · Matplotlib · Statsmodels**
+**SQL (SQLite) | Python | Pandas | Matplotlib | Statsmodels**
 
-Analyzed **7,500 simulated employee records** to investigate top-performer retention, turnover intention, and employee engagement using workforce segmentation, correlation analysis, and multiple linear regression.
+Analyzed **7,500 simulated employee records** to investigate employee engagement, turnover intention, and top-performer retention through workforce segmentation, correlation analysis, and multiple linear regression.
 
 ## Research Question
 
@@ -16,20 +15,20 @@ Analyzed **7,500 simulated employee records** to investigate top-performer reten
 
 ## Business Purpose
 
-Identify workforce patterns to inform **employee retention strategies, engagement initiatives, and evidence-based HR decision-making**.
+Identify workforce patterns and retention risks to inform **employee engagement strategies, talent retention, and evidence-based HR decision-making**.
 
 ## Methodology
 
-- **SQL:** Data validation, cleaning checks, and workforce analysis across job functions, demographics, and tenure.
-- **Python:** Workforce segmentation and top-performer analysis using performance ratings and turnover intention.
-- **Statistical Analysis:** Correlation analysis and multiple linear regression to investigate predictors of turnover intention.
-- **Data Visualization:** Used Python and Matplotlib to communicate workforce trends and findings.
+- **SQL:** Conducted data validation, descriptive analysis, and workforce segmentation across job functions, demographics, and tenure.
+- **Python:** Analyzed top performers, job satisfaction, turnover intention, and workforce trends.
+- **Statistical Analysis:** Applied correlation analysis and multiple linear regression to examine predictors of turnover intention.
+- **Data Visualization:** Developed visualizations using Matplotlib to communicate workforce trends and analytical findings.
 
 ## Findings
 
-- **Top-Performer Retention:** Top performers had an average turnover intention of **3.48**, rising to **3.91** among Software Development top performers.
-- **Retention Predictors:** Available workforce variables did not clearly explain turnover intention.
-- **Employee Engagement:** Job satisfaction averaged **2.78–2.89** across job functions, with no clear engagement driver emerging from the correlations.
+- **Top-Performer Retention:** Top performers reported an average turnover intention of **3.48**, increasing to **3.91** among Software Development top performers.
+- **Retention Predictors:** Available workforce variables did not clearly explain turnover intention in the regression analysis.
+- **Employee Engagement:** Average job satisfaction ranged from **2.78 to 2.89** across job functions, with no clear engagement driver emerging from the correlation analysis.
 
 ## Key Insights and Recommendations
 
@@ -39,26 +38,27 @@ Identify workforce patterns to inform **employee retention strategies, engagemen
 
 ## Data Source
 
-**Simulated Meta Employee Dataset — 7,500 records**
+**Simulated Meta Employee Dataset — 7,500 employee records**
 
-Synthetic workforce data used for a hypothetical Meta case study; not actual Meta employee records.
+Synthetic workforce data developed for a hypothetical Meta case study; not actual Meta employee records.
 
 ## Code
 
-- **SQL:** Data validation, workforce aggregation, and descriptive analysis.
-- **Python:** Workforce segmentation, correlation analysis, multiple linear regression, and data visualization.
+- **SQL (SQLite):** Data validation, workforce aggregation, and descriptive analysis.
+- **Python (Pandas, Statsmodels):** Workforce segmentation, correlation analysis, and multiple linear regression.
+- **Matplotlib:** Workforce analytics and data visualization.
 
-[View Complete Project Repository](https://github.com/Prashasti08/People-Analytics-Project-2-Meta-Case-Study)
+[View Project Repository](https://github.com/Prashasti08/People-Analytics-Project-2-Meta-Case-Study)
 
 ## Data Visualizations and Dashboard
 
-**Python / Matplotlib:** Visualizations examining workforce composition, turnover intention, employee satisfaction, and retention patterns.
+**Python / Matplotlib:** Visualizations examining workforce composition, employee satisfaction, turnover intention, and retention patterns.
 
-[Explore Project Analysis and Visualizations](https://github.com/Prashasti08/People-Analytics-Project-2-Meta-Case-Study)
+[Explore Analysis and Visualizations](https://github.com/Prashasti08/People-Analytics-Project-2-Meta-Case-Study)
 
 ## Limitations
 
-- Findings are based on simulated, not actual Meta employee data.
-- Observational associations do not establish causality.
-- Turnover intention does not measure actual employee turnover.
-- Available variables may not capture all relevant retention and engagement drivers; productivity was not directly measured.
+- **Simulated Data:** Findings are based on synthetic data, not actual Meta employee records.
+- **Causality:** Observational associations do not establish causal relationships.
+- **Turnover Measurement:** Turnover intention does not represent actual employee turnover.
+- **Predictor Coverage:** Available variables may not capture all relevant retention and engagement drivers; productivity was not directly measured.
